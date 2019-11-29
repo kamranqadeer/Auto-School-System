@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="796.0" prefWidth="1434.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home2.HomeController">
+   <children>
+      <BorderPane prefHeight="773.0" prefWidth="88.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <AnchorPane prefHeight="641.0" prefWidth="39.0" BorderPane.alignment="CENTER" />
+         </left>
+         <top>
+            <AnchorPane prefHeight="68.0" prefWidth="1434.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="TOP" layoutX="297.0" prefHeight="80.0" prefWidth="786.0" text="WELCOME TO SSMS HOME PAGE" textFill="#fec601">
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="33.0" prefWidth="1449.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <right>
+            <AnchorPane prefHeight="596.0" prefWidth="34.0" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <AnchorPane prefHeight="691.0" prefWidth="1361.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="61.0" layoutY="93.0" prefHeight="138.0" prefWidth="240.0" style="-fx-background-color: #042954;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <Separator layoutX="115.0" layoutY="18.0" orientation="VERTICAL" prefHeight="93.0" prefWidth="6.0" />
+                        <ImageView fitHeight="44.0" fitWidth="45.0" layoutX="39.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../PIC/student.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="TOP" layoutX="8.0" layoutY="68.0" prefHeight="53.0" prefWidth="107.0" text="STUDENT'S" textFill="#fec601">
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="728.0" layoutY="93.0" prefHeight="138.0" prefWidth="240.0" style="-fx-background-color: #042954;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <Separator layoutX="112.0" layoutY="21.0" orientation="VERTICAL" prefHeight="84.0" prefWidth="0.0" />
+                        <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="40.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../PIC/Staff_24px.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="TOP" layoutX="15.0" layoutY="67.0" prefHeight="53.0" prefWidth="83.0" text="EMPLOY,S" textFill="#fec601">
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="386.0" layoutY="93.0" prefHeight="138.0" prefWidth="240.0" style="-fx-background-color: #042954;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <Separator layoutX="113.0" layoutY="23.0" orientation="VERTICAL" prefHeight="84.0" prefWidth="1.0" />
+                        <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="36.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../PIC/teacher.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="TOP" layoutX="4.0" layoutY="66.0" prefHeight="53.0" prefWidth="101.0" text="TEACHER,S" textFill="#fec601">
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="1060.0" layoutY="93.0" prefHeight="138.0" prefWidth="240.0" style="-fx-background-color: #042954;">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <children>
+                        <Separator layoutX="113.0" layoutY="30.0" orientation="VERTICAL" prefHeight="79.0" prefWidth="7.0" />
+                        <ImageView fitHeight="34.0" fitWidth="38.0" layoutX="36.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../PIC/icons8_Money_Bag_24px.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="TOP" layoutX="20.0" layoutY="69.0" prefHeight="53.0" prefWidth="81.0" text="TOTAL&#10;AMOUNT" textFill="#fec601">
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <ImageView fitHeight="318.0" fitWidth="419.0" layoutX="297.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../home1/png.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
